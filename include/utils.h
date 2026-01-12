@@ -1,3 +1,6 @@
+#ifndef UTILS_H
+#define UTILS_H
+
 /**
  * Prints the given message in the stderr and aborts the program.
  * @param msg The message to be written into stderr.
@@ -16,3 +19,5 @@ void printMsg(char *msg);
  * @param ptr Pointer to set all its characters to NULL.
  */
 void clear(char *ptr);
+
+#endif // UTILS_H
